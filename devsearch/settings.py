@@ -121,9 +121,9 @@ DATABASES = {
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'devsearch',
-        'USER':'siyuanzhang',
-        'PASSWORD':'Zsy7894561230!',
-        'HOST':'database-1.ch2c0a0i2xbu.us-east-1.rds.amazonaws.com',
+        'USER':'',
+        'PASSWORD':'',
+        'HOST':'',
         'PORT':'5432'
             
     }
@@ -194,3 +194,5 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'siyuan.zhang97@gmail.com'
 EMAIL_HOST_PASSWORD = 'uuookeeulobhhlmd'
+if os.getcws() == '/app':
+    DEBUG = False
