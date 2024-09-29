@@ -121,10 +121,10 @@ DATABASES = {
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'devsearch',
-        'USER':'postgres',
-        'PASSWORD':'0414',
-        'HOST':'localhost',
-        'PORT':'5433'
+        'USER':'siyuanzhang',
+        'PASSWORD':'Zsy7894561230!',
+        'HOST':'database-1.ch2c0a0i2xbu.us-east-1.rds.amazonaws.com',
+        'PORT':'5432'
             
     }
 }
